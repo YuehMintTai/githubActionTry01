@@ -1,0 +1,16 @@
+name: GitHub Actions Demo
+run-name: GitHub Actions Demo
+
+# 觸發此action的時機
+on:
+    push:
+    branchs:
+        '*'
+    workflow_dispatch: #可
+
+# 預先定義此action
+jobs:
+    demo:
+        run-on: ubuntu-latest
+        steps:
+            -run: echo '執行成功'
