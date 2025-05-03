@@ -5,7 +5,7 @@ on:
   # 觸伋狀況
   push:
     branches: [main]
-  pull_reauest:
+  pull_request:
     branches: [main]
   # 手動執行
   workflow_dispatch:
