@@ -1,0 +1,27 @@
+# workflow 
+name: CI
+# 
+on:
+  # 觸伋狀況
+  push:
+    branches: [main]
+  pull_reauest:
+    branches: [main]
+  # 手動執行
+  workflow_dispatch:
+
+# 徝序或平行執行
+jobs:
+  # job name: bukld
+  build:
+    runs-on: ubunbu-latest
+    # 串連stepts
+    steps:
+        - users: actions/checkout@v2
+        - name: Run one-line script
+          run: echo Hello, world!
+
+        - name: Run a multi-line script
+          run:
+            echo Add other actions to build,
+            echo test and deply your project.
