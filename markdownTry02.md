@@ -46,7 +46,7 @@ or
 
 ## 貼上影片
 
-![極短影片](/images/000.mp4)
+[![Watch the video](https://raw.githubusercontent.com/YuehMintTai/githubActionTry01/edit/main/assets/000.png)](https://raw.githubusercontent.com/YuehMintTai/githubActionTry01/edit/main/assets/000.mp4)
 
 <video width="320" height="240" controls>
   <source src="/images/000.mp4" type="video/mp4">
